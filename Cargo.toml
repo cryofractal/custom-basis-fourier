@@ -1,6 +1,10 @@
 [package]
-name = "custom-basis-fourier"
+name = "custom_basis_fourier_gui"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
+eframe = "0.28"
+egui_plot = "0.28"
+hound = "3.5"
+rfd = "0.14"     # native file dialog
